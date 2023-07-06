@@ -1,0 +1,15 @@
+{
+    "name": "topalek/site",
+    "autoload": {
+        "psr-4": {
+            "Invoice\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "topalek",
+            "email": "v.topalek@gmail.com"
+        }
+    ],
+    "require": {}
+}
