@@ -6,6 +6,8 @@ class App
 {
     public function run()
     {
-        echo 'working!!!';
+        $router = new Router();
+        $request = new Request();
+        $router->dispatch($request);
     }
 }
