@@ -32,7 +32,7 @@ class Router
         }
         [$instance, $methodName] = $callback;
         $instance = new $instance();
-        call_user_func_array([$instance, $methodName]);
+        return call_user_func_array([$instance, $methodName]);
     }
 
 }
